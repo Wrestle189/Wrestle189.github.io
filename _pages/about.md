@@ -1,5 +1,5 @@
 ---
-glayout: about
+layout: about
 title: About
 permalink: /
 subtitle: <a href='http://arc.zju.edu.cn/'>ARClab</a>. Zhejiang University.
@@ -7,7 +7,7 @@ subtitle: <a href='http://arc.zju.edu.cn/'>ARClab</a>. Zhejiang University.
 profile:
   align: right
   image: yulong_ss.png
-  image_circular: false # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
   more_info: >
     <p>Caoxi Building 401</p>
     <p>No. 38 Zheda Road</p>
