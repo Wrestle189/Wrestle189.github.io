@@ -24,5 +24,4 @@ announcements:
 
 I am currently a fourth-year PhD studentPhD studentat ARClab, College of Computer Science and Technology, Zhejiang University, China, where I am supervised by Professor [Wenzhi Chen](https://person.zju.edu.cn/chenwenzhi). I expect to graduate in 2026. Prior to my doctoral studies, I earned a Bachelor’s degree in Computer Science and Technology from Northwestern Polytechnical University in 2021. My research interests primarily encompass AI storage and NVMe virtualization.
 
-
 I’m an energetic sports enthusiast, always on the go! I love playing badminton, cycling, and swimming. Whether it’s a fast-paced game or a relaxing ride, I’m all about staying active and having fun!

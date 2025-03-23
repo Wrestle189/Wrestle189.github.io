@@ -61,17 +61,15 @@
       "startDate": "2017-09-01",
       "endDate": "2019-09-01",
       "summary": "Served as a volunteer at the university library, responsible for organizing and archiving books, and supporting daily library operations.",
-      "highlights": [
-        "Recognized as an 'Outstanding Volunteer' by the Library of Northwestern Polytechnical University for dedication and service."
-      ]
+      "highlights": ["Recognized as an 'Outstanding Volunteer' by the Library of Northwestern Polytechnical University for dedication and service."]
     },
     {
-    "organization": "Spark Volunteer Association, Northwestern Polytechnical University",
+      "organization": "Spark Volunteer Association, Northwestern Polytechnical University",
       "location": " Weinan, Shaanxi, China",
       "position": "Volunteer Math Teacher",
       "startDate": "2018-07-14",
       "endDate": "2018-07-29",
-      "url":"https://mp.weixin.qq.com/s/etWL2Md7lg7Y8tPTeaFDBg",
+      "url": "https://mp.weixin.qq.com/s/etWL2Md7lg7Y8tPTeaFDBg",
       "summary": "Taught mathematics to rural children during a two-week teaching support program organized by the Spark Environmental Volunteer Association.",
       "highlights": [
         "Designed and delivered math lessons to primary school students in a remote village.",
@@ -105,11 +103,7 @@
     {
       "name": "Sports",
       "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Badminton",
-        "Cycling",
-        "Swimming"
-      ]
+      "keywords": ["Badminton", "Cycling", "Swimming"]
     }
   ]
 }
