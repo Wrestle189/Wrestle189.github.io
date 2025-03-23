@@ -14,13 +14,6 @@
       "countryCode": "CN",
       "region": "Zhejiang"
     }
-    // "profiles": [
-    //   {
-    //     "network": "Twitter",
-    //     "username": "AlbertEinstein",
-    //     "url": "https://twitter.com/AlbertEinstein"
-    //   }
-    // ]
   },
   "education": [
     {
@@ -48,7 +41,7 @@
       "position": "Academic Collaboration Intern",
       "url": "https://example.com",
       "startDate": "2021-07-15",
-      "endDate": "now",
+      "endDate": "Present",
       "summary": "Participated in explore NVMe storage virtualization solutions and DPU offloading architecture for object storage in DL scenario",
       "highlights": ["The research results NVMePass and OS2G were accepted by HPCA 25 and ASPLOS 25, respectively."]
     }
