@@ -1,23 +1,5 @@
 ---
 ---
-@INPROCEEDINGS {10946776,
-author = { Chen, Yiquan and Jin, Zhen and Wang, Yijing and Chen, Yi and Xu, Jiexiong and Yu, Hao and Chen, Jinlong and Lin, Wenhai and Fang, Kanghua and Zhang, Keyao and Wei, Chengkun and Liu, Qiang and Xie, Yuan and Chen, Wenzhi },
-keywords={main},
-booktitle = { 2025 IEEE International Symposium on High Performance Computer Architecture (HPCA) },
-title = {{ NVMePass: A Lightweight, High-performance and Scalable NVMe Virtualization Architecture with I/O Queues Passthrough }},
-year = {2025},
-volume = {},
-ISSN = {},
-pages = {1395-1407},
-abstract = { Most data-intensive applications currently run on NVMe storage, and virtualization is essential in cloud computing. Existing NVMe virtualization technologies include software-based and hardware-assisted. Virtio suffers from severe performance degradation, and polling-based solutions consume too many valuable CPU resources. Hardware-assisted solutions provide high performance and no CPU usage but have the challenges of developing dedicated hardware.In this paper, we propose NVMePass, a novel software-hardware co-design NVMe passthrough virtualization architecture designed to achieve high performance and no CPU overhead while maintaining high scalability. The key ideas of NVMePass are NVMe I/O queues passthrough for VMs and a mechanism to ensure security. The NVMePass supports DMA and interrupts remapping for VMs without hypervisor involvement, eliminating virtualization overhead and providing near-native performance. Isolation is achieved by I/O queues and logical block address resources exclusively allocated to VMs. We propose NVMe Resource Domain (NRD) and implement it in the NVMe controller to intercept illegal I/O requests. Thus, isolation and security are fully achieved. Results from our experiments show that NVMePass can provide comparable performance to VFIO, with an IOPS of $\mathbf{1 0 0. 1 \% - 1 0 0. 5 \%}$ of VFIO. Furthermore, compared to SPDK-Vhost, NVMePass achieves $\mathbf{4 0. 0 \%}$ lower latency when running 150 VMs, and NVMePass has an improvement of $\mathbf{6 8. 0 \%}$ OPS performance in a real-world application when running 100 VMs. },
-keywords = {Degradation;Cloud computing;Virtual machine monitors;Scalability;Computer architecture;Software;Hardware;Security;Virtualization},
-doi = {10.1109/HPCA61900.2025.00105},
-url = {https://doi.ieeecomputersociety.org/10.1109/HPCA61900.2025.00105},
-publisher = {IEEE Computer Society},
-address = {Los Alamitos, CA, USA},
-selected={true},
-series = {HPCA '25'}
-month =mar}
 
 @inproceedings{10.1145/3676641.3716265,
 abbr={ASPLOS 2025},
@@ -37,18 +19,29 @@ keywords = {deep learning, direct data transfer, dpu offloading, gpu, object sto
 location = {Rotterdam, Netherlands},
 series = {ASPLOS '25}
 }
-@INPROCEEDINGS{HyQ,
-  abbr={CCGrid 2023},
-  author={Chen, Yiquan and Chen, Jinlong and Wang, Yijing and Chen, Yi and Jin, Zhen and Xu, Jiexiong and Fang, Guoju and Lin, Wenhai and Wei, Chengkun and Chen, Wenzhi},
-  booktitle={2023 IEEE/ACM 23rd International Symposium on Cluster, Cloud and Internet Computing (CCGrid)}, 
-  title={HyQ: Hybrid I/O Queue Architecture for NVMe over Fabrics to Enable High- Performance Hardware Offloading}, 
-  year={2023},
-  volume={},
-  number={},
-  pages={13-24},
-  selected={true},
-  keywords={Degradation;Cloud computing;Protocols;Processor scheduling;Computer architecture;Dynamic scheduling;Hardware;NVMe over Fabrics;Hardware Offloading;High-performance Storage},
-  doi={10.1109/CCGrid57682.2023.00012}}
+
+
+@INPROCEEDINGS {10946776,
+author = {Chen, Yiquan and Jin, Zhen and Wang, Yijing and Chen, Yi and Xu, Jiexiong and Yu, Hao and Chen, Jinlong and Lin, Wenhai and Fang, Kanghua and Zhang, Keyao and Wei, Chengkun and Liu, Qiang and Xie, Yuan and Chen, Wenzhi },
+keywords={main},
+booktitle = { 2025 IEEE International Symposium on High Performance Computer Architecture (HPCA) },
+title = {{ NVMePass: A Lightweight, High-performance and Scalable NVMe Virtualization Architecture with I/O Queues Passthrough }},
+year = {2025},
+volume = {},
+ISSN = {},
+pages = {1395-1407},
+abstract = { Most data-intensive applications currently run on NVMe storage, and virtualization is essential in cloud computing. Existing NVMe virtualization technologies include software-based and hardware-assisted. Virtio suffers from severe performance degradation, and polling-based solutions consume too many valuable CPU resources. Hardware-assisted solutions provide high performance and no CPU usage but have the challenges of developing dedicated hardware.In this paper, we propose NVMePass, a novel software-hardware co-design NVMe passthrough virtualization architecture designed to achieve high performance and no CPU overhead while maintaining high scalability. The key ideas of NVMePass are NVMe I/O queues passthrough for VMs and a mechanism to ensure security. The NVMePass supports DMA and interrupts remapping for VMs without hypervisor involvement, eliminating virtualization overhead and providing near-native performance. Isolation is achieved by I/O queues and logical block address resources exclusively allocated to VMs. We propose NVMe Resource Domain (NRD) and implement it in the NVMe controller to intercept illegal I/O requests. Thus, isolation and security are fully achieved. Results from our experiments show that NVMePass can provide comparable performance to VFIO, with an IOPS of $\mathbf{1 0 0. 1 \% - 1 0 0. 5 \%}$ of VFIO. Furthermore, compared to SPDK-Vhost, NVMePass achieves $\mathbf{4 0. 0 \%}$ lower latency when running 150 VMs, and NVMePass has an improvement of $\mathbf{6 8. 0 \%}$ OPS performance in a real-world application when running 100 VMs. },
+keywords = {Degradation;Cloud computing;Virtual machine monitors;Scalability;Computer architecture;Software;Hardware;Security;Virtualization},
+doi = {10.1109/HPCA61900.2025.00105},
+url = {https://doi.ieeecomputersociety.org/10.1109/HPCA61900.2025.00105},
+publisher = {IEEE Computer Society},
+address = {Los Alamitos, CA, USA},
+selected={true},
+series = {HPCA '25},
+abbr={HPCA 2025},
+month =mar}
+
+
 
 @INPROCEEDINGS{JACO,
   abbr={CLUSTER 2023},
@@ -137,3 +130,15 @@ series = {ASPLOS '25}
   publisher={MDPI}
 }
 
+@INPROCEEDINGS{HyQ,
+  abbr={CCGrid 2023},
+  author={Chen, Yiquan and Chen, Jinlong and Wang, Yijing and Chen, Yi and Jin, Zhen and Xu, Jiexiong and Fang, Guoju and Lin, Wenhai and Wei, Chengkun and Chen, Wenzhi},
+  booktitle={2023 IEEE/ACM 23rd International Symposium on Cluster, Cloud and Internet Computing (CCGrid)}, 
+  title={HyQ: Hybrid I/O Queue Architecture for NVMe over Fabrics to Enable High- Performance Hardware Offloading}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={13-24},
+  selected={true},
+  keywords={Degradation;Cloud computing;Protocols;Processor scheduling;Computer architecture;Dynamic scheduling;Hardware;NVMe over Fabrics;Hardware Offloading;High-performance Storage},
+  doi={10.1109/CCGrid57682.2023.00012}}
