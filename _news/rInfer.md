@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-rInfer was accpeted by CCGrid 2025! 😊 ✨
+Our paper rInfer was accpeted by CCGrid 2025! 😊 ✨
