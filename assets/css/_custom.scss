@@ -3,3 +3,51 @@
   font-style: italic;
   color: #d63384; // 可选颜色
 }
+
+.highlight-red {
+  font-weight: bold;
+  // font-style: italic;
+  color: #d63384; // 可选颜色
+}
+
+// .selected-heading {
+//   font-weight: bold;
+//   font-style: italic;
+//   text-decoration: underline;
+//   color: inherit;
+// }
+
+.selected-heading {
+  // font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-weight: bold;
+  // font-style: italic;
+  // text-decoration: underline;
+  color: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li,
+span,
+a,
+table,
+blockquote {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+/* 控制 news 列表的行间距 */
+.news table.table-sm > tbody > tr {
+  line-height: 1.3; /* 默认约1.5，可以调小 */
+}
+
+.news table.table-sm td,
+.news table.table-sm th {
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+}
