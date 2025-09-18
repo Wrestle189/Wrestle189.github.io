@@ -21,9 +21,8 @@ announcements:
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: # leave blank to include all the news in the `_news` folder
 ---
-
 #### Welcome to Zhen Jin’s Homepage! 👋
 
-I am currently a fourth-year PhD student ARClab, College of Computer Science and Technology, Zhejiang University, China, where I am supervised by Professor [Wenzhi Chen](https://person.zju.edu.cn/chenwenzhi). I expect to graduate in 2026. Prior to my doctoral studies, I earned a Bachelor’s degree in Computer Science and Technology from Northwestern Polytechnical University in 2021. My research interests primarily encompass AI storage and NVMe virtualization.
+I am currently a final-year PhD student ARClab, College of Computer Science and Technology, Zhejiang University, China, where I am supervised by Professor [Wenzhi Chen](https://person.zju.edu.cn/chenwenzhi). I expect to graduate in 2026. Prior to my doctoral studies, I earned a Bachelor’s degree in Computer Science and Technology from Northwestern Polytechnical University in 2021. My research interests primarily encompass AI storage and NVMe virtualization.
 
 I’m an energetic sports enthusiast, always on the go! I love playing badminton, cycling, and swimming. Whether it’s a fast-paced game or a relaxing ride, I’m all about staying active and having fun!
