@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper OS2G was accpeted by ASPLOS 2025! 😊 ✨
+Our paper OS2G was accepted by ASPLOS 2025! 😊 ✨

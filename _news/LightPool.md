@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper LightPool was accpeted by HPCA 2024! 😊 ✨
+Our paper LightPool was accepted by HPCA 2024! 😊 ✨

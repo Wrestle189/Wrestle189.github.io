@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Two papers BlueJay and CINDA were accpeted by CCGrid 2024! 😊 ✨
+Two papers BlueJay and CINDA were accepted by CCGrid 2024! 😊 ✨

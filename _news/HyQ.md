@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper HyQ was accpeted by CCGrid 2023! 😊 ✨
+Our paper HyQ was accepted by CCGrid 2023! 😊 ✨
